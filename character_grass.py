@@ -1,16 +1,14 @@
 from operator import truediv
-import pygame
+
 from pico2d import *
 
 open_canvas()
 
-grass=load_image('grass.png')
+grass= load_image('grass.png')
 character=load_image('character_R.png')
 x=400
 y=90
 Direction=4
-
-
 
 while(1):
     clear_canvas_now()
